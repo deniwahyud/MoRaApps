@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#51d8c7</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="blue">#673AB7</color>
+    <color name="colorSecondary">#aa00ff</color>
+
+    <color name="colorRed">#ff2026</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorAmber">#FFC400</color>
+    <color name="colorSelect">#17E909</color>
+    <color name="colorEdit">#03A9F4</color>
+</resources>

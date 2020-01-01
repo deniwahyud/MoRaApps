@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:gravity="center"
+    android:background="@color/blue">
+
+    <ImageView
+        android:layout_marginTop="-30dp"
+        android:layout_marginBottom="500dp"
+        android:layout_width="450dp"
+        android:layout_height="284dp"
+        android:background="@drawable/it" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="JUDUL"
+        android:textColor="#ffffff"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:fontFamily="sans-serif-light"
+        android:text="IT Chapter 2"
+        android:textColor="#ffffff"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="SINOPSIS"
+        android:textColor="#ffffff"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="sans-serif-light"
+        android:text="The second series will continue the story of the Losers Club members. Twenty-seven years after their first encounter with frightening Pennywise, the Losers Club has matured and separated. Until a phone call brought Losers Club back to meet the dark ghosts of their past."
+        android:textColor="#ffffff"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="420dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="CAST"
+        android:textColor="#ffffff"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Jessica Chastain, Bill Hader, James McAvoy, Bill Skarsgård"
+        android:textColor="#ffffff"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="RELEASE DATE"
+        android:textColor="#ffffff"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="490dp"
+        android:fontFamily="sans-serif-light"
+        android:text="September, 4th 2019"
+        android:textColor="#ffffff"></TextView>
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/penilaian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5" />
+    <TextView
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="-10dp"
+        android:id="@+id/rate"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating:"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

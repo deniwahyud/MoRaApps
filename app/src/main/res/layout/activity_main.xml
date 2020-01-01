@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="680dp"
+        android:background="@drawable/button_select"
+        android:text="Home"
+        android:textColor="@color/colorWhite" />
+    <Button
+        android:id="@+id/btnMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="105dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="680dp"
+        android:background="@drawable/button_blue"
+        android:text="Movie"
+        android:textColor="@color/colorWhite" />
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="205dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="680dp"
+        android:background="@drawable/button_blue"
+        android:text="Account"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="305dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="680dp"
+        android:background="@drawable/button_blue"
+        android:text="Logout"
+        android:textColor="@color/colorWhite" />
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:text="NEWEST"/>
+    <ImageView
+        android:id="@+id/juju"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/juju"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="          Jumanji: \n    The Next Level"
+        android:layout_marginTop="450dp"/>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/knive"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="150dp"
+        android:text="Knives Out"
+        android:layout_marginTop="450dp"/>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/fr"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="270dp"
+        android:text="Frozen II "
+        android:layout_marginTop="450dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:text="TOP RATED"/>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/avg"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="       Avengers: \n      End Game"
+        android:layout_marginTop="660dp"/>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/jok"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="165dp"
+        android:text="Joker"
+        android:layout_marginTop="660dp"/>
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/toys4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="270dp"
+        android:text="Toy Story 4"
+        android:layout_marginTop="660dp"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="9000dp"/>
+
+</RelativeLayout>
